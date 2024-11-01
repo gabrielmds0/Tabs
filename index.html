@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,20 +8,70 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
-    <div class="container">
+    <div id="container">
         <div class="tab-buttons">
-            <button class="tab-btn" content-id="home"></button>
-            <button class="tab-btn" content-id="about"></button>
-            <button class="tab-btn" content-id="contact"></button>
-        </div>
-        <div class="tab-content">
-            <div class="content" id="home"> </div>
-            <div class="content" id="about"> </div>
-            <div class="content" id="contact"> </div>
+
+            <button class="tab-btn active " content-id="home">
+                Home
+            </button>
+            <button class="tab-btn active" content-id="about">
+                About
+            </button>
+            <button class="tab-btn active" content-id="contact">
+                Contact
+            </button>
 
         </div>
+
+        <div class="tab-content">
+
+            <div class="content show" id="home">
+
+                <img src="imgs/home.svg" alt="home" class="content-img">
+                <div class="infos">
+
+                    <h1 class="content-title">Home</h1>
+                    <p class="content-description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+                        debitis,
+                        explicabo exercitationem eaque architecto nobis minus vero assumenda ipsa sit repellendus
+                        officia
+                        dolores aliquam laboriosam animi iure voluptates illo esse!</p>
+                </div>
+            </div>
+
+            <div class="content" id="about">
+                <img src="imgs/about.svg" alt="about" class="content-img">
+                <div class="infos">
+
+                    <h1 class="content-title">About</h1>
+                    <p class="content-description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+                        debitis,
+                        explicabo exercitationem eaque architecto nobis minus vero assumenda ipsa sit repellendus
+                        officia
+                        dolores aliquam laboriosam animi iure voluptates illo esse!</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="content" id="contact">
+            <img src="imgs/contact.svg" alt="contact" class="content-img">
+            <div class="infos">
+                <h1 class="content-title">Contact</h1>
+                <p class="content-description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Non debitis,
+                    explicabo
+                    exercitationem eaque architecto nobis minus vero assumenda ipsa sit repellendus officia dolores
+                    aliquam
+                    laboriosam animi iure voluptates illo esse!</p>
+            </div>
+        </div>
+
+    </div>
+    </div>
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
